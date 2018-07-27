@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobium</title>
+    <!-- Favicon -->
+	<link rel="icon" href="img/logo-og.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo-og.png" type="image/x-icon">
+	<!-- OG-метки -->
+	<meta property="og:title" content="Заголовок страницы">
+	<meta property="og:description" content="Описание страницы">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="">
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="css/hamburgers.min.css" rel="stylesheet">
+        <link rel="preload" href="css/style.css" as="style" onload="this.rel='stylesheet'">
+</head>
+<body>
+    <div id="headerline" class="header__line">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-5 col-lg-2">
+                        <a href="#">
+                            <picture class="mobile">
+                                <source srcset="img/mobium_logo.svg" ,="" media="(min-width: 786px)">
+                                <source srcset="img/mobium_logo.svg" ,="" media="(min-width: 320px)">
+                                <img src="img/lmobium_logo.svg" srcset="img/mobium_logo.svg" alt="logo">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 align-self-center d-lg-block menu-collapse d-none">
+                        <nav>
+                            <ul class="menu">
+                                <li><a href="https://mobiumapps.com/promo.pdf" target="_blank">Наш продукт</a></li>
+                                <li><a href="https://mobiumapps.com/showcase">Клиенты</a></li>
+                                <li><a href="https://mobiumapps.com/partners">Партнёрам</a></li>
+                                <li><a href="https://mobiumapps.com/contact">Контакты</a></li>                              
+                                
+                                <li class="pes_ned"> <a href="https://mobiumapps.com/about" >О нас</a></li>
+
+                                <b class="spoiler-title3 closed">О нас</b>
+                                <div class="spoiler-body3 active">
+                                    <a href="#" class="pes_n">API для разработчиков</a>
+                                    <a href="#" class="pes_n">Пользовательская документация</a> 
+                                    <a href="#" class="pes_n">С чего начать?</a>    
+                                    <a href="#" class="pes_n">Запрос в техподдержку</a> 
+                                    <a href="#" class="pes_n">Вакансии</a>  
+                                    <a href="#" class="pes_n">Связаться с нами</a>
+                                    <a href="#" class="pes_n">О нас</a> 
+                                </div>
+                                <li>
+                                   <b class="spoiler-title4 closed">Язык</b>
+                                    <div class="spoiler-body4 active">
+                                            <a href="#" class="pes_n">Russian</a>
+                                            <a href="https://mobiumapps.com/en" class="pes_n">English</a>
+                                    </div>
+                                </li>
+                                <li class="d-block d-lg-none">                       
+                                    <div class="user">
+                                        <a class="user__price" href="https://mobiumapps.com/request">Узнать цену</a>
+                                        <a class="user__signIn" href="https://panel.mobiumapps.com/app/#/auth"><i class="far fa-user-circle"></i> Войти</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <div class="user">
+                            <a class="user__price" href="https://mobiumapps.com/request">Узнать цену</a>
+                            <a class="user__signIn" href="https://panel.mobiumapps.com/app/#/auth"><i class="far fa-user-circle"></i> Войти</a>
+                            <div class="language">
+                                <button class="language__ru">ru <i class="fas fa-angle-down"></i></button>
+                                <div class="language-ul">
+                                    <li><a href="#" class="language-ul__active">RU</a></li>
+                                    <li><a href="https://mobiumapps.com/en" class="language-ul__en">EN</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex justify-content-between align-items-center d-block d-lg-none">
+                        <div class="mobile-tel">
+                            <a href="tel:88007075257"> 8 (800) 707-52-57</a>
+                        </div>
+                        <button class="hamburger hamburger--collapse menu-open" type="button">
+                          <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                          </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <header class="header">
+        <div class="grey-line d-none d-lg-block">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="grey-line__social">
+                            <p>Свяжитесь с нами:</p>
+                            <a href="#"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+                            <a href="#"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                            <a href="#"><i class="fab fa-viber"></i> Viber</a>
+                            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="grey-line__tel">
+                            <a href="tel:88007075257"> 8 (800) 707-52-57</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <section class="intro"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Разработка мобильного приложения для интернет-магазина</h1>
+                    <p>iOS и Android за 14 дней</p>
+                    <a href="https://mobiumapps.com/request">Оставить заявку</a>
+                    <div class="phones d-flex justify-content-around d-block d-lg-none">
+                        <img src="img/iphone-x-mobile.png" alt="phone">
+                        <img src="img/samsung-mobile.png" alt="phone">
+                    </div>
+                </div>
+            </div>
+            <div class="iphone">
+                <img src="img/bond_iphone.png" alt="screen">
+                
+            </div>
+            <div class="samsung d-none d-lg-block">
+                <img src="img/bond_samsung.png" alt="screen">
+                
+            </div>
+        </div>
+    </section>
+    <section class="three-facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>3 факта рентабельности<br> мобильного приложения</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="three-facts-item">
+                    	<div class="linear-fon blu">
+                        	<img src="img/icon-svg/3-fackt-1.svg" alt="icon">
+                        </div>
+                        <p>
+                            больше 52%<br>
+                            интернет-трафика со смартфонов
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="three-facts-item">
+                        <div class="linear-fon yel">
+                        	<img src="img/icon-svg/3-fackt-2.svg" alt="icon">
+                        </div>
+                        <p>
+                            на 30% больше<br>
+                            повторных продаж 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="three-facts-item">
+                        <div class="linear-fon">
+                        	<img src="img/icon-svg/3-fackt-3.svg" alt="icon">
+                        </div>
+                        <p>
+                            средний чек в приложении выше<br>
+                            на 27%, чем на мобильной версии
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="conversion">
+        <div class="conversion-background"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Выше конверсия = больше доход</h3>
+                    <p>
+                        В приложении конверсия в покупку выше в <span>3.7 раза</span>,<br> 
+                        чем в мобильном браузере
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-around">
+                <div class="col-6 col-lg-4">
+                    <div class="conversion-browser">
+                       <div class="mobile-browser">
+                            <img src="img/chrome.png" alt="icon">
+                            <img src="img/icon-svg/opera.svg" alt="icon">
+                            <img src="img/icon-svg/safari.svg" alt="icon">
+                        </div>
+                        <h4>1000</h4> 
+                        <p>пользователей брузера</p>
+                        <img class="arrow-down" src="img/browser-arrow-down.png" alt="arrow">
+                        <div class="trapezoid-1 d-none d-lg-block">
+                            <p>просмотр товара</p>
+                        </div>
+                        <div class="trapezoid-2 d-none d-lg-block">
+                            <p>товар в корзине</p>
+                        </div>
+                        <div class="trapezoid-3 d-none d-lg-block">
+                            <p>оплачено</p>
+                        </div>
+                        <img class="d-none d-lg-block m-auto" src="img/browser-arrow-down.png" alt="arrow">
+                        <h5>15</h5>
+                        <p class="sales">продаж</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <div class="conversion-annexes">
+                        <div class="mobile-annexes">
+                                <img src="img/appstore.png" alt="icon">
+                                <img src="img/google-play.png" alt="icon">
+                            </div>
+                            <h4>1000</h4> 
+                            <p>пользователей брузера</p>
+                            <img class="arrow-down" src="img/annexes-arrow-down.png" alt="arrow">
+                            <div class="trapezoid-1 d-none d-lg-block">
+                                <p>просмотр товара</p>
+                            </div>
+                            <div class="trapezoid-2 d-none d-lg-block">
+                                <p>товар в корзине</p>
+                            </div>
+                            <div class="trapezoid-3 d-none d-lg-block">
+                                <p>оплачено</p>
+                            </div>
+                            <img class="d-none d-lg-block m-auto" src="img/annexes-arrow-down.png" alt="arrow">
+                            <h5>55</h5>
+                            <p class="sales">продаж</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="included">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5>Что включено в продукт?</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="included-iphone">
+                        <img id="included-iphone" src="img/4screen.png" alt="screen">
+                    </div>
+                </div>
+                <div class="col-lg-7 d-flex flex-wrap mt-0 mt-lg-5">
+                    <div class="included-item included-catalog">
+                        <img src="img/icon-svg/catalog-icon.svg" alt="icon">
+                        <p>Каталог товаров</p>
+                    </div>
+                    <div class="included-item included-design">
+                        <img src="img/icon-svg/design-icon.svg" alt="icon">
+                        <p>Оформление заказа</p>
+                    </div>
+                    <div class="included-item included-message">
+                        <img src="img/icon-svg/message-icon.svg" alt="icon">
+                        <p>Бесплатная рассылка</p>
+                    </div>
+                    <div class="included-item included-payment included-active mb-4 mb-lg-0">
+                        <img src="img/icon-svg/payment-icon.svg" alt="icon">
+                        <p>Онлайн оплата</p>
+                    </div>
+                    <div class="included-item included-geolocation mb-4 mb-lg-0">
+                        <img src="img/icon-svg/geolocation-icon.svg" alt="icon">
+                        <p>Геолокация</p>
+                    </div>
+                    <div class="included-item included-percent mb-4 mb-lg-0">
+                        <img src="img/icon-svg/percent-icon.svg" alt="icon">
+                        <p>Программа лояльности</p>
+                    </div>
+
+                    <!-- Блоки текса -->
+                    <div class="included-block included-block-payment active-block">
+                    	<div class="bg-linear-icon">
+                        	<img src="img/icon-svg/arrow-up.svg" alt="icon">
+                        </div>
+                        <span>+ 10% к конверсии</span>
+                        <p>Бесплатные push-уведомления на iphone и android.
+                                Персональные сообщения и триггерные рассылки, API</p>
+                    </div>
+                    <div class="included-block included-block-catalog">
+                    	<div class="bg-linear-icon">
+                        	<img src="img/icon-svg/arrow-up.svg" alt="icon">
+                        </div>
+                        <span>+ 1000% к конверсии</span>
+                        <p>Бесплатные push-уведомления на iphone и android.
+                                Персональные сообщения и триггерные рассылки, API</p>
+                    </div>
+                    <div class="included-block included-block-design">
+                    	<div class="bg-linear-icon">
+                        	<img src="img/icon-svg/arrow-up.svg" alt="icon">
+                        </div>
+                        <span>+ 120% к конверсии</span>
+                        <p>Бесплатные push-уведомления на iphone и android.
+                                Персональные сообщения и триггерные рассылки, API</p>
+                    </div>
+                    <div class="included-block included-block-message">
+                    	<div class="bg-linear-icon">
+                        	<img src="img/icon-svg/arrow-up.svg" alt="icon">
+                        </div>
+                        <span>+ 1350% к конверсии</span>
+                        <p>Бесплатные push-уведомления на iphone и android.
+                                Персональные сообщения и триггерные рассылки, API</p>
+                    </div>
+                    <div class="included-block included-block-geolocation">
+                    	<div class="bg-linear-icon">
+                        	<img src="img/icon-svg/arrow-up.svg" alt="icon">
+                        </div>
+                        <span>+ 1560% к конверсии</span>
+                        <p>Бесплатные push-уведомления на iphone и android.
+                                Персональные сообщения и триггерные рассылки, API</p>
+                    </div>
+                    <div class="included-block included-block-percent">
+                    	<div class="bg-linear-icon">
+                        	<img src="img/icon-svg/arrow-up.svg" alt="icon">
+                        </div>
+                        <span>+ 1110% к конверсии</span>
+                        <p>Бесплатные push-уведомления на iphone и android.
+                                Персональные сообщения и триггерные рассылки, API</p>
+                    </div>
+                    <!-- Ссылки -->
+                    <div class="included-links">
+                    <a href="https://mobiumapps.com/request">Получить демо</a>
+                        <a href="https://mobiumapps.com/promo.pdf" target="_blank">О приложении</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="download">
+                        <p class="text-center">Оцените возможности приложения на смартфоне</p>
+                        <div class="download-links d-flex">
+                            <a href="https://play.google.com/store/apps/details?id=com.mobium5930.app" class="mr-2 mr-lg-4" target="_blank"><img src="img/icon-svg/google-play-badg.svg" alt="icon"></a>
+                            <a href="https://itunes.apple.com/ru/app/%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-mobium/id1137973694?mt=8" target="_blank"><img class="app_store" src="img/icon-svg/app_store.svg" alt="icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="statistic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pess text-center">
+				<div>
+                    <div class="stat-bg-linear"><img src="img/icon-svg/power-icon.svg" alt="icon"></div>
+                    <span>6 366 000</span>
+                    <p>запусков</p>
+					</div>
+                </div>
+                <div class="col-lg-4  pess text-center">
+				<div>
+                    <div class="stat-bg-linear">
+                    	<img src="img/icon-svg/oborot-icon.png" alt="icon">
+                    </div>
+                    <span>395&nbsp;668&nbsp;866&nbsp;₽</span>
+                    <p>оборот в приложениях</p>
+				</div>
+                </div>
+                <div class="col-lg-4 pess text-center">
+				<div>
+                    <div class="stat-bg-linear"><img src="img/icon-svg/cart.svg" alt="icon"></div>
+                    <span>151 692</span>
+                    <p>заказов в приложениях</p>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="free-demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Хотите бесплатно получить демо своего приложения?</h6>
+                    <div class="free-demo-blocks d-flex">
+                        <div class="free-demo-blocks-item text-center">
+                            <img src="img/icon-svg/call-icon.svg" alt="icon">
+                            <p>Оставьте заявку<br> или позвоните нам</p>
+                        </div>
+                        <div class="arrow-right"></div>
+                        <div class="free-demo-blocks-item text-center">
+                            <img src="img/icon-svg/tell-icon.svg" alt="icon">
+                            <p>Расскажите<br> о своем бизнесе</p>
+                        </div>
+                        <div class="arrow-right"></div>
+                        <div class="free-demo-blocks-item text-center w-210">
+                            <img src="img/icon-svg/get-icon.svg" alt="icon">
+                            <p>Получите демо-приложение вашего магазина бесплатно</p>
+                        </div>
+                    </div>
+                    <a href="https://mobiumapps.com/request">Получить демо</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Тарифы</h6>
+                    <div class="rates-controls">
+                        <input type="radio" name="rate" id="rate-1" checked="">
+                        <input type="radio" name="rate" id="rate-2">
+                        <input type="radio" name="rate" id="rate-3">
+                        <label class="rate-control-1" for="rate-1">1 месяц</label>
+                        <label class="rate-control-2" for="rate-2">6 месяцев</label>
+                        <label class="rate-control-3" for="rate-3">1 год</label>
+                    </div>
+                </div>
+            </div>
+		<div class="main__pes">	
+			
+		<div class="supre_pes one-mounth active">
+			<div class="supre_pes__iteme">
+				<div class="text-center">
+					<div class="rates-item rates-item--blue">
+                        <div class="rates-bg-linear blue">
+                       		<img src="img/icon-svg/rates-rocet-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Стартовый</p>
+                        <span class="rates-item__del">3 800</span>
+                        <span class="rates-item__price rates-item__price--blue">3 610 р/мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 1500 товаров в базе<br>
+                            До 50 заказов в месяц<br>
+                            Базовая статистика<br>
+                            Тех. поддержка по E-Mail<br>
+                            Ограниченные рассылки<br>
+                            Логотип Mobium Apps<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--blue" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+				
+				</div>
+			</div>
+			
+			
+			<div class="supre_pes__iteme">
+				<div class="text-center">
+					<div class="rates-item rates-item--pink">
+                    	<div class="rates-bg-linear yel">
+                       		<img src="img/icon-svg/rates-user-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Профессиональный</p>
+                        <span class="rates-item__del">7 400</span>
+                        <span class="rates-item__price rates-item__price--pink">6 660 р/мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--pink" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>  
+				
+				</div>
+			</div>
+			
+			
+			<div class="supre_pes__iteme">
+				<div class="text-center">
+					<div class="rates-item rates-item--purple">
+                    	<div class="rates-bg-linear">
+                       		<img src="img/icon-svg/rates-crown-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Премиум</p>
+                        <span class="rates-item__del">18 000</span>
+                        <span class="rates-item__price rates-item__price--purple">15 300 р/мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--purple" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+				
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="supre_pese six-mounth">
+			<div class="supre_pes__item">
+				<div class="text-center">
+					<div class="rates-item rates-item--blue">
+                        <div class="rates-bg-linear blue">
+                       		<img src="img/icon-svg/rates-rocet-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Стартовый</p>
+                        <span class="rates-item__del">4 800</span>
+                        <span class="rates-item__price rates-item__price--blue">4 610 р/6 мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 1500 товаров в базе<br>
+                            До 50 заказов в месяц<br>
+                            Базовая статистика<br>
+                            Тех. поддержка по E-Mail<br>
+                            Ограниченные рассылки<br>
+                            Логотип Mobium Apps<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--blue" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+				
+				</div>
+			</div>
+			
+			<div class="supre_pes__item">
+				<div class="text-center">
+					<div class="rates-item rates-item--pink">
+                    	<div class="rates-bg-linear yel">
+                       		<img src="img/icon-svg/rates-user-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Профессиональный</p>
+                        <span class="rates-item__del">8 400</span>
+                        <span class="rates-item__price rates-item__price--pink">7 660 р/6 мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--pink" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+				
+				</div>
+			</div>
+			<div class="supre_pes__item">
+				<div class="text-center">
+					 <div class="rates-item rates-item--purple">
+                    	<div class="rates-bg-linear">
+                       		<img src="img/icon-svg/rates-crown-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Премиум</p>
+                        <span class="rates-item__del">20 000</span>
+                        <span class="rates-item__price rates-item__price--purple">18 300 р/6 мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--purple" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+				
+				</div>
+			</div>
+		</div>
+		
+		<div class="supre_pesek one-year">
+			<div class="supre_pes__item">
+				<div class="text-center">
+				 <div class="rates-item rates-item--blue">
+                        <div class="rates-bg-linear blue">
+                       		<img src="img/icon-svg/rates-rocet-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Стартовый</p>
+                        <span class="rates-item__del">11 800</span>
+                        <span class="rates-item__price rates-item__price--blue">9 610 р/год</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 1500 товаров в базе<br>
+                            До 50 заказов в месяц<br>
+                            Базовая статистика<br>
+                            Тех. поддержка по E-Mail<br>
+                            Ограниченные рассылки<br>
+                            Логотип Mobium Apps<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--blue" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>			
+				</div>
+			</div>
+			
+			<div class="supre_pes__item">
+				<div class="text-center">
+					<div class="rates-item rates-item--pink">
+                    	<div class="rates-bg-linear yel">
+                       		<img src="img/icon-svg/rates-user-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Профессиональный</p>
+                        <span class="rates-item__del">30 400</span>
+                        <span class="rates-item__price rates-item__price--pink">27 660 р/год</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--pink" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+				</div>
+			</div>
+			
+			<div class="supre_pes__item">
+				<div class="text-center">
+					<div class="rates-item rates-item--purple">
+                    	<div class="rates-bg-linear">
+                       		<img src="img/icon-svg/rates-crown-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Премиум</p>
+                        <span class="rates-item__del">36 000</span>
+                        <span class="rates-item__price rates-item__price--purple">34 300 р/год</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--purple" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+				</div>
+			</div>		
+		</div>	
+	</div>		
+			
+	
+	<div class="pes_b">
+            <div class="row"> 
+                <!-- 1 месяц -->
+                <div class="col-lg-4 text-center one-mounth active">
+                    <div class="rates-item rates-item--blue">
+                    	<div class="rates-bg-linear blue">
+                       		<img src="img/icon-svg/rates-rocet-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Стартовый</p>
+                        <span class="rates-item__del">3 800</span>
+                        <span class="rates-item__price rates-item__price--blue">3 610 р/мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 1500 товаров в базе<br>
+                            До 50 заказов в месяц<br>
+                            Базовая статистика<br>
+                            Тех. поддержка по E-Mail<br>
+                            Ограниченные рассылки<br>
+                            Логотип Mobium Apps<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--blue" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center one-mounth active">
+                    <div class="rates-item rates-item--pink">
+                    	<div class="rates-bg-linear yel">
+                       		<img src="img/icon-svg/rates-user-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Профессиональный</p>
+                        <span class="rates-item__del">7 400</span>
+                        <span class="rates-item__price rates-item__price--pink">6 660 р/мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--pink" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>   
+                </div>
+                <div class="col-lg-4 text-center one-mounth active">
+                    <div class="rates-item rates-item--purple">
+                    	<div class="rates-bg-linear">
+                       		<img src="img/icon-svg/rates-crown-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Премиум</p>
+                        <span class="rates-item__del">18 000</span>
+                        <span class="rates-item__price rates-item__price--purple">15 300 р/мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--purple" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+                </div>
+				
+                <!-- 6 месяцев -->
+                <div class="col-lg-4 text-center six-mounth">
+                    <div class="rates-item rates-item--blue">
+                    	<div class="rates-bg-linear blue">
+                        		<img src="img/icon-svg/rates-rocet-icon.svg" alt="icon">
+                  		 </div>
+                        <p class="rates-item__title">Стартовый</p>
+                        <span class="rates-item__del">4 800</span>
+                        <span class="rates-item__price rates-item__price--blue">4 610 р/6 мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 1500 товаров в базе<br>
+                            До 50 заказов в месяц<br>
+                            Базовая статистика<br>
+                            Тех. поддержка по E-Mail<br>
+                            Ограниченные рассылки<br>
+                            Логотип Mobium Apps<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--blue" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center six-mounth">
+                    <div class="rates-item rates-item--pink">
+                    	<div class="rates-bg-linear yel">
+                       		<img src="img/icon-svg/rates-user-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Профессиональный</p>
+                        <span class="rates-item__del">8 400</span>
+                        <span class="rates-item__price rates-item__price--pink">7 660 р/6 мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--pink" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>   
+                </div>
+                <div class="col-lg-4 text-center six-mounth">
+                    <div class="rates-item rates-item--purple">
+                    	<div class="rates-bg-linear">
+                       		<img src="img/icon-svg/rates-crown-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Премиум</p>
+                        <span class="rates-item__del">20 000</span>
+                        <span class="rates-item__price rates-item__price--purple">18 300 р/6 мес</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--purple" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+                </div>
+                <!-- 1 год -->
+                <div class="col-lg-4 text-center one-year">
+                    <div class="rates-item rates-item--blue">
+                    	<div class="rates-bg-linear blue">
+                        		<img src="img/icon-svg/rates-rocet-icon.svg" alt="icon">
+                  		 </div>
+                        <p class="rates-item__title">Стартовый</p>
+                        <span class="rates-item__del">11 800</span>
+                        <span class="rates-item__price rates-item__price--blue">9 610 р/год</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 1500 товаров в базе<br>
+                            До 50 заказов в месяц<br>
+                            Базовая статистика<br>
+                            Тех. поддержка по E-Mail<br>
+                            Ограниченные рассылки<br>
+                            Логотип Mobium Apps<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--blue" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center one-year">
+                    <div class="rates-item rates-item--pink">
+                    	<div class="rates-bg-linear yel">
+                       		<img src="img/icon-svg/rates-user-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Профессиональный</p>
+                        <span class="rates-item__del">30 400</span>
+                        <span class="rates-item__price rates-item__price--pink">27 660 р/год</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--pink" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>   
+                </div>
+                <div class="col-lg-4 text-center one-year">
+                    <div class="rates-item rates-item--purple">
+                    	<div class="rates-bg-linear">
+                       		<img src="img/icon-svg/rates-crown-icon.svg" alt="icon">
+                        </div>
+                        <p class="rates-item__title">Премиум</p>
+                        <span class="rates-item__del">36 000</span>
+                        <span class="rates-item__price rates-item__price--purple">34 300 р/год</span>
+                        <p class="rates-item__text">
+                            Создание приложений<br>
+                            До 5000 товаров в базе<br>
+                            До 100 заказов в месяц<br>
+                            Расширенная статистика<br>
+                            Приоритетная тех. поддержка<br>
+                            Рассылки без ограничений<br>
+                            Триггерные рассылки<br>
+                            API Личного кабинета<br>
+                            API Передачи заказов<br>
+                            API для push-уведомлений<br>
+                        </p>
+                        <a class="rates-item__btn rates-item__btn--purple" href="https://mobiumapps.com/request">Выбрать</a>
+                    </div>
+                </div>
+            </div>
+		</div>
+		</div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6 class="d-none d-lg-block">Отзывы наших клиентов</h6>
+                    <h6 class="d-block d-lg-none">Отзывы</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slider">
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-1.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                   <p class="name">Михаил Филиппенко</p>
+                                    <p class="desc">Омский колледж предпринимательства и права</p>
+                                    <a href="#">omskkpp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-2.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Антон Черновол</p>
+                                    <p class="desc">220 Volt - магазин электрооборудования</p>
+                                    <a href="#">220volt.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-1.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Михаил Филиппенко</p>
+                                    <p class="desc">Омский колледж предпринимательства и права</p>
+                                    <a href="#">omskkpp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-2.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Антон Черновол</p>
+                                    <p class="desc">220 Volt - магазин электрооборудования</p>
+                                    <a href="#">220volt.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-1.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Михаил Филиппенко</p>
+                                    <p class="desc">Омский колледж предпринимательства и права</p>
+                                    <a href="#">omskkpp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-2.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Антон Черновол</p>
+                                    <p class="desc">220 Volt - магазин электрооборудования</p>
+                                    <a href="#">220volt.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-1.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Михаил Филиппенко</p>
+                                    <p class="desc">Омский колледж предпринимательства и права</p>
+                                    <a href="#">omskkpp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-2.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Антон Черновол</p>
+                                    <p class="desc">220 Volt - магазин электрооборудования</p>
+                                    <a href="#">220volt.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-1.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Михаил Филиппенко</p>
+                                    <p class="desc">Омский колледж предпринимательства и права</p>
+                                    <a href="#">omskkpp.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <p class="slider-item__text">
+                                Наше учебное заведение АНПОО «Омский колледж предпринимательства и права» давно хотело реализовать проект по созданию своего мобильного приложения. Это продиктовано сегодняшним временем, когда в кармане каждого студента, преподавателя, сотрудника есть смартфон. Удобно получать самую оперативную информацию о колледже, ленту новостей, расписание занятий и ещё многие другие полезные функции. Наши студенты, преподаватели, абитуриенты активно используют мобильное приложение и благодарны команде разработчиков компании Mobium за настоящую профессиональную работу. Надеемся на долгосрочное дальнейшее сотрудничество!
+                            </p>
+                            <div class="slider-item-user d-flex">
+                                <img src="img/slider-photo-2.png" alt="photo">
+                                <div class="slider-item-user__desc">
+                                    <p class="name">Антон Черновол</p>
+                                    <p class="desc">220 Volt - магазин электрооборудования</p>
+                                    <a href="#">220volt.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Хотите узнать стоимость?</h6>
+                    <p>
+                        Стоимость разработки мобильного приложения зависит от размера вашего магазина 
+                    </p>
+                    <a href="#">Узнать стоимость</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Посмотрите видео о нас</h6>
+                </div>
+                <div class="col-lg-8 m-auto">
+                    <div class="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/h5Aah9H_Ftc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="apps">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Более 150 успешных приложений</h6>
+                    <p>Онлайн и офлайн-магазины и бизнесы</p>
+                </div>
+            </div>
+           <ul class="pest__ul">
+				
+                    <li class="pest__item"><img  src="img/abc-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/ms-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/as-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/heart-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/dona-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/drop-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/dona-app.png" alt="app"></li>
+                    <li class="pest__item"><img src="img/ms-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/heart-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/abc-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/drop-app.png" alt="app"></li>
+                    <li class="pest__item"><img  src="img/as-app.png" alt="app"></li>
+                    <li class="pest__item d-none d-lg-block"><img  src="img/abc-app.png" alt="app"></li>
+                    <li class="pest__item d-none d-lg-block"><img src="img/dona-app.png" alt="app"></li>
+                    <li class="pest__item d-none d-lg-block"><img src="img/as-app.png" alt="app"></li>
+					<li class="pest__item d-none d-lg-block"><img src="img/drop-app.png" alt="app"></li>
+                    <li class="pest__item d-none d-lg-block"><img src="img/ms-app.png" alt="app"></li>
+                    <li class="pest__item d-none d-lg-block"><img  src="img/abc-app.png" alt="app"></li>
+             </ul>
+            
+                    <a class="mark_tail" href="https://mobiumapps.com/showcase">Все клиенты</a>
+                    
+           
+        </div>
+    </section>
+    <section class="map-block">
+        <div class="container">
+            <div class="row text-center mb-0">
+                <div class="col-lg-4 j-van">
+                	<div class="map_bg-linear blue">
+                    	<img class="map-block-icon" src="img/icon-svg/map-call-icon.svg" alt="icon">
+                	</div>
+                    <p>Позвоните нам</p>
+                    <a href="tel:88007075257">8 (800) 707-52-57</a>
+                </div>
+                <div class="col-lg-4 j-van">                	
+                	<div class="map_bg-linear yel">
+                    	<img class="map-block-icon" src="img/icon-svg/map-message-icon.svg" alt="icon">
+                    	</div>
+                    <p>Напишите нам</p>
+                    <a href="mailto:sales@mobiumapps.com">sales@mobiumapps.com</a>
+                </div>
+                <div class="col-lg-4 j-van mb-0">
+                	<div class="map_bg-linear">
+                    	<img class="map-block-icon" src="img/icon-svg/map-geolocation-icon.svg" alt="icon">
+                     </div>
+                    <p>Заходите в гости</p>
+                    <span>г. Санкт-Петербург, 10 линия В.О., 17/2</span>
+                </div>
+            </div>
+            <div class="row mb-0">
+                <div class="col-lg-12 mb-0">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consulting">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                	<div class="consul-bg-linear">
+                		 <img src="img/icon-svg/consulting-message-icon.svg" alt="icon">
+                	</div>
+                    <h6>Консультация эксперта</h6>
+                    <p>
+                        За 6 лет работы мы приобрели экспертность в области развития мобильной электронной торговли, и готовы поделиться своими знаниями с вами.
+                    </p>
+					<form class="callback">
+			  					<div class="success">
+			  						<span>Спасибо за заявку!</span>
+			  					</div>  					
+									<input type="hidden" name="project_name" value="Алрогс">
+									<input type="hidden" name="admin_email" value="snab@alrocs-yug.ru">
+									<input type="hidden" name="form_subject" value="Заявка с сайта">								
+									<div class="peseku">
+										<input type="text" name="Имя" placeholder="Имя" required>
+										<input type="tel" name="Телефон" id="phone" placeholder="Телефон" required>						
+										<button class="butt">Отправить</button>
+									</div>
+					</form>
+                    
+                    <a href="https://support.mobiumapps.com/hc/ru/articles/115004000025" class="warning">
+                        Нажимая кнопку «Отправить сообщение», вы даёте согласие на хранение и обработку ваших персональных данных.
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-social">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 d-flex justify-content-around m-auto">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#"><i class="fab fa-viber"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-4">
+                        <p class="footer-content__title">
+                            Мобиум - разработка мобильных приложений для интернет-магазинов
+                        </p>
+                    </div>
+                    <div class="col-lg-5 d-flex justify-content-between">
+                        <ul class="links d-flex">
+                            <li><a href="#" target="_blank">Наш продукт</a></li>
+                            <li><a href="#">Клиенты</a></li>
+                            <li><a href="#">Партнёрам</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a class="m-0" href="#">О нас</a></li>
+                        </ul>
+                        <ul class="links d-flex">
+                            <li><a href="https://mobiumapps.com/blog" target="_blank">Блог</a></li>
+                            <li><a href="https://support.mobiumapps.com/hc/ru/requests/new" target="_blank">Техническая поддержка</a></li>
+                            <li><a href="https://support.mobiumapps.com/hc/ru/articles/212161585" target="_blank">Лицензионное соглашение</a></li>
+                            <li><a href="https://panel.mobiumapps.com/app/#/auth?tab=login" target="_blank">Войти</a></li>
+                            <li><a class="m-0" href="https://mobiumapps.com/request" target="_blank">Зарегистрироваться</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-content__contacts">
+                            <a href="tel:88007075257">8 (800) 707-52-57</a>
+                            <a href="mailto:sales@mobiumapps.com" class="pesuk">sales@mobiumapps.com</a>
+                            <span>10:00 - 19:00 (МСК)</span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-corparation text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Все права защищены © ООО “Мобиум”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2yzhQI1hTgMLxFsHP3C3JdQr0Cbndqxg&amp;callback=initMap" async="" defer=""></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

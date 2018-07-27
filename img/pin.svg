@@ -1,0 +1,32 @@
+<svg id="pin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.75" height="62.71" viewBox="0 0 41.75 62.71">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        opacity: 0.12;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="20.25" y1="11.37" x2="20.25" y2="31.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffbea7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="960.5" y1="8862.34" x2="960.5" y2="8800.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fb3f8c"/>
+      <stop offset="1" stop-color="#ff6d24"/>
+    </linearGradient>
+  </defs>
+  <path id="Ellipse_514_copy" data-name="Ellipse 514 copy" class="cls-1" d="M960.5,8859.62c3.486,0,6.312.78,6.312,1.74s-2.826,1.73-6.312,1.73-6.313-.77-6.313-1.73S957.014,8859.62,960.5,8859.62Z" transform="translate(-939.625 -8800.38)"/>
+  <ellipse class="cls-2" cx="20.25" cy="21.48" rx="10.125" ry="10.11"/>
+  <path class="cls-3" d="M960.5,8800.38a20.832,20.832,0,0,0-20.871,20.79c0,17.21,17.844,23.84,20.871,41.18,2.422-17.64,20.871-23.97,20.871-41.18A20.832,20.832,0,0,0,960.5,8800.38Zm0,27.98a8.145,8.145,0,1,1,8.175-8.14A8.154,8.154,0,0,1,960.5,8828.36Z" transform="translate(-939.625 -8800.38)"/>
+</svg>
